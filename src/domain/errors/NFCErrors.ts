@@ -1,6 +1,6 @@
 export class NFCNotSupportedError extends Error {
   constructor() {
-    super('Web NFC API is not supported in this browser');
+    super('NFC is not supported on this device');
     this.name = 'NFCNotSupportedError';
   }
 }
