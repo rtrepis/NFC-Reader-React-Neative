@@ -21,10 +21,18 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.NFC",
+        "android.permission.NFC"
+      ],
+      "package": "com.anonymous.NFCReaderRN"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "react-native-nfc-manager"
+    ]
   }
 }
